@@ -9,10 +9,10 @@ node_js:
 
 cache: npm
 
-# 只有 master 分支更改才触发 CI
+# 只有 源码 分支更改才触发 CI
 branches:
   only:
-    - master
+    - vue2.x-dev
 
 before_install:
   - export TZ='Asia/Shanghai'
@@ -30,6 +30,6 @@ deploy:
   token: $GH_TOKEN        # GitHub Token 变量
   keep_history: true      # 保持推送记录，以增量提交的方式
   local_dir: dist         # 需要推送到 GitHub 的静态文件目录
-  target_branch: gh-pages # 推送的目标文件 local_dir -> gh-pages 分支
+  target_branch: laomei # 推送的目标文件 local_dir -> gh-pages 分支
   on:
-    branch: master        # 工作分支
+    branch: vue2.x-dev        # 工作分支
