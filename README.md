@@ -1,3 +1,9 @@
+> vue2-dev分支是源码分支，gh-pages我用来存放静态网站分支，个人使用源码搭建步骤：
+> 1. 在vue2-dev分支执行：npm install
+> 2. npm run serve 进行本地调式，默认端口是 8080
+> 3. npm run build # 执行打包命令，生成 dist 静态文件
+> 4. 将dist静态文件复制到gh-pages分支
+
 # PicX
 
 [![Author](https://img.shields.io/badge/author-XPoet-orange.svg)](https://github.com/XPoet)
