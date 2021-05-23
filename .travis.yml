@@ -30,6 +30,6 @@ deploy:
   token: $GH_TOKEN        # GitHub Token 变量
   keep_history: true      # 保持推送记录，以增量提交的方式
   local_dir: dist         # 需要推送到 GitHub 的静态文件目录
-  target_branch: laomei # 推送的目标文件 local_dir -> gh-pages 分支
+  target_branch: gh-pages # 推送的目标文件 local_dir -> gh-pages 分支
   on:
     branch: vue2.x-dev        # 源码工作分支
