@@ -1,8 +1,9 @@
-> vue2-dev分支是源码分支，gh-pages我用来存放静态网站分支，个人使用源码搭建步骤：
-> 1. 在vue2-dev分支执行：npm install
+> vue2-dev 分支是源码分支，gh-pages 我用来存放静态网站分支，个人使用源码搭建步骤：
+>
+> 1. 在 vue2-dev 分支执行：npm install
 > 2. npm run serve 进行本地调式，默认端口是 8080
 > 3. npm run build # 执行打包命令，生成 dist 静态文件
-> 4. 将dist静态文件复制到gh-pages分支
+> 4. 将 dist 静态文件复制到 gh-pages 分支
 
 # PicX
 
@@ -112,9 +113,9 @@
 
    - 可通过**选择图片**到上传区域进行上传。
 
-    选择图片完成后，会显示出图片详细信息，你可以**自定义修改图片名称**和**给图片加上哈希吗（确保图片名不重复）。**
+   选择图片完成后，会显示出图片详细信息，你可以**自定义修改图片名称**和**给图片加上哈希吗（确保图片名不重复）。**
 
-    ![](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/PicX/image.3ibdn25rjfe0.png)
+   ![](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/PicX/image.3ibdn25rjfe0.png)
 
 <br>
 
@@ -137,3 +138,5 @@
 ## License 许可
 
 [MIT](https://github.com/XPoet/picx/blob/master/LICENSE) Copyright (c) 2020 XPoet
+
+测试构建
